@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <script src="main.js"></script>
+    <title>About Me</title>
+  </head>
+  <body onload="realtimeClock()">
+    <div class="nav">
+      <p>Angel D. Chaple</p>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a
+            href="about.html"
+            onclick="returnfalse;"
+            onmousedown="autoScrollTo('#About');"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="contact.html"
+            onclick="returnfalse;"
+            onmousedown="autoScrollTo('#Contact');"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+    <section id="About">
+      <div class="bio">
+        <h3>About Me</h3>
+        <p>
+          Ever since I was 13 years old and I heard of software development I
+          fell in love with it and with tech. I love to explore new technologies
+          and to tackle new challenging projects. I primarily have focused down
+          the front end engineering path. Besides software development, I love
+          to play my guitar and video games. I especially love to code on side
+          projects to further improve my engineering skills.
+        </p>
+        <div class="skills">
+          <h2 class="techheading">Skills</h2>
+          <img src="./assets/images/34-345908_html-css-icon-png.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="main-container">
+      <h3>Real Time Clock</h3>
+      <div id="clock"></div>
+    </div> -->
+  </body>
+</html>
